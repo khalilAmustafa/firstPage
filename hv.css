@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #66CCFF; /* calming blue */
+  background-color: #66CCFF; 
   padding: 10px 20px;
   color: white;
   font-family: Arial, sans-serif;
@@ -23,7 +23,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #cbd5e0; /* light gray on hover */
+  color: #cbd5e0; 
 }
 .is {
     position: relative;
@@ -46,13 +46,12 @@ nav a:hover {
  
   
   
-/* Container for buttons */
 .button-container {
   text-align: left;
   margin-top: 20px;
 }
 
-/* Common button styles */
+
 .btn {
   display: inline-block;
   padding: 12px 24px;
@@ -65,21 +64,18 @@ nav a:hover {
   transition: background-color 0.3s, color 0.3s;
 }
 
-/* Styles for 'Learn More' button */
+
 .btn-learn {
   background-color: white;
-  color: #2b6cb0; /* deep blue text */
   border: 2px solid #2b6cb0;
 }
 
-/* Styles for 'Get Resources' button */
 .btn-resources {
   background-color: #2b6cb0;
   color: white;
   border: 2px solid #2b6cb0;
 }
 
-/* Hover effect for both buttons */
 .btn:hover {
   background-color: #2b6cb0;
   color: white;
